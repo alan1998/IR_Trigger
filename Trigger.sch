@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:MyComponents
+LIBS:Trigger-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -138,7 +140,7 @@ U 1 1 57F91048
 P 2500 3100
 F 0 "D3" H 2500 3200 50  0000 C CNN
 F 1 "LED" H 2500 3000 50  0000 C CNN
-F 2 "LEDs:LED-5MM" H 2500 3100 50  0001 C CNN
+F 2 "SMD_Mine:PhotoDiode" H 2500 3100 50  0001 C CNN
 F 3 "" H 2500 3100 50  0000 C CNN
 	1    2500 3100
 	0    1    1    0   
@@ -237,7 +239,7 @@ U 1 1 57FA6825
 P 4550 2800
 F 0 "RV2" H 4550 2720 50  0000 C CNN
 F 1 "POT" H 4550 2800 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_WirePads_largePads" H 4550 2800 50  0001 C CNN
+F 2 "SMD_Mine:Potentiometer_WirePads_largePads" H 4550 2800 50  0001 C CNN
 F 3 "" H 4550 2800 50  0000 C CNN
 	1    4550 2800
 	0    1    1    0   
@@ -365,4 +367,15 @@ Wire Wire Line
 	3700 1950 3700 1850
 Wire Wire Line
 	4100 3600 2950 3600
+$Comp
+L MountHole H1
+U 1 1 57FBCC09
+P 7800 2950
+F 0 "H1" H 7800 2950 60  0000 C CNN
+F 1 "MountHole" H 7800 3300 60  0000 C CNN
+F 2 "Mounting_Holes:MountingHole_3.5mm" H 7800 2950 60  0001 C CNN
+F 3 "" H 7800 2950 60  0001 C CNN
+	1    7800 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
