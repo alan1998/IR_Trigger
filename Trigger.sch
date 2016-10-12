@@ -44,8 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 1700 5550 0    60   ~ 0
-2 LEDs 157-3495 in series 3.3v supply\nGain variable 100K Upwards\nAdd comparator and lED\nVariable resistor on comparator for threshold setting
 $Comp
 L MCP6002 U1
 U 1 1 57F8ED12
@@ -86,7 +84,7 @@ P 1050 2400
 F 0 "D1" H 1050 2500 50  0000 C CNN
 F 1 "LED" H 1050 2300 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 1050 2400 50  0001 C CNN
-F 3 "" H 1050 2400 50  0000 C CNN
+F 3 "Farnell 157-3495" H 1050 2200 50  0000 C CNN
 	1    1050 2400
 	0    -1   -1   0   
 $EndComp
@@ -95,7 +93,7 @@ L LED D2
 U 1 1 57F8EE49
 P 1050 2900
 F 0 "D2" H 1050 3000 50  0000 C CNN
-F 1 "LED" H 1050 2800 50  0000 C CNN
+F 1 "SFH4550" H 1050 2800 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 1050 2900 50  0001 C CNN
 F 3 "" H 1050 2900 50  0000 C CNN
 	1    1050 2900
@@ -139,9 +137,9 @@ L LED D3
 U 1 1 57F91048
 P 2500 3100
 F 0 "D3" H 2500 3200 50  0000 C CNN
-F 1 "LED" H 2500 3000 50  0000 C CNN
+F 1 "SFH206K" H 2500 3000 50  0000 C CNN
 F 2 "SMD_Mine:PhotoDiode" H 2500 3100 50  0001 C CNN
-F 3 "" H 2500 3100 50  0000 C CNN
+F 3 "Farnell 121-2741" H 2500 3100 50  0001 C CNN
 	1    2500 3100
 	0    1    1    0   
 $EndComp
